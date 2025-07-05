@@ -1,0 +1,14 @@
+# Backup fájlok
+*~
+
+# IDE fájlok
+.vscode/
+.idea/
+
+# OS-specifikus fájlok
+.DS_Store
+Thumbs.db
+
+# Logok és temp fájlok
+*.log
+*.tmp
