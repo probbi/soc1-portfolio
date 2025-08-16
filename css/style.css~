@@ -13,6 +13,7 @@ body {
   max-width: 900px;
   margin: auto;
   font-family: 'Rubik', sans-serif;
+  font-size: 18px;
   position: relative;
   z-index: 1;
 }
@@ -67,7 +68,7 @@ h2 {
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 18px;
   line-height: 1.6;
   margin: 1rem 0;
 }
