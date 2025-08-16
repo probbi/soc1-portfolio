@@ -13,6 +13,7 @@ body {
   max-width: 900px;
   margin: auto;
   font-family: 'Rubik', sans-serif;
+  font-size: 18px;
   position: relative;
   z-index: 1;
 }
