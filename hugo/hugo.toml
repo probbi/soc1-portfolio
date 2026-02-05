@@ -1,0 +1,10 @@
+baseURL = 'https://probbi.com/'
+languageCode = 'en-us'
+title = 'probbi'
+theme = "PaperMod"
+
+mainSections = ["posts"]
+
+[pagination]
+  pagerSize = 10
+

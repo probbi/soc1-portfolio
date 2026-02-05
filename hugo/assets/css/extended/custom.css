@@ -1,0 +1,38 @@
+/* Alap dark háttér és szöveg */
+body {
+  background: #0d1117 !important;
+  color: #e6e6e6 !important;
+}
+
+/* Zöld címsorok */
+h1, h2, h3, h4, h5, h6 {
+  color: #4ade80;
+}
+
+/* Linkek – zöld */
+a {
+  color: #4ade80 !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #22c55e !important;
+  text-decoration: underline;
+}
+
+/* Kiemelt doboz – minimalista */
+.kiemelt {
+  background: #161b22;
+  border: 1px solid #4ade80; /* zöld border */
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Listák – kis finomhangolás */
+ul {
+  padding-left: 1.2rem;
+}
+
+ul li {
+  margin-bottom: 0.4rem;
+

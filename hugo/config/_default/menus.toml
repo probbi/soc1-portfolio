@@ -1,0 +1,9 @@
+[[main]]
+name = "Projektek"
+url = "/projektek/"
+weight = 1
+
+[[main]]
+name = "TryHackMe"
+url = "/tryHackMe/"
+weight = 2

@@ -1,0 +1,9 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "probbi"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "dark"
+  disableThemeToggle = true
+

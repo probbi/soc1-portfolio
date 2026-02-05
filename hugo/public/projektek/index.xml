@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projektek on probbi</title>
+    <link>/projektek/</link>
+    <description>Recent content in Projektek on probbi</description>
+    <generator>Hugo -- 0.155.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Nov 2025 15:00:49 +0100</lastBuildDate>
+    <atom:link href="/projektek/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Magyarországi CO₂‑kibocsátás elemzése KSH-adatok alapján</title>
+      <link>/projektek/magyarorszagi-co2kibocsatas-elemz%C3%A9se-ksh-adatok-alapjan/</link>
+      <pubDate>Tue, 25 Nov 2025 15:00:49 +0100</pubDate>
+      <guid>/projektek/magyarorszagi-co2kibocsatas-elemz%C3%A9se-ksh-adatok-alapjan/</guid>
+      <description>Ez a projekt egy KSH Adatelemzési feladat keretében készült a magyarországi CO₂ kibocsátásra koncentrálva.</description>
+    </item>
+    <item>
+      <title>Pcap Analyzer Lite</title>
+      <link>/projektek/pcap-analyzer-lite/</link>
+      <pubDate>Thu, 15 May 2025 10:12:55 +0100</pubDate>
+      <guid>/projektek/pcap-analyzer-lite/</guid>
+      <description>A cél egy egyszerű hálózatelemző Python szkript létrehozása volt.</description>
+    </item>
+  </channel>
+</rss>
