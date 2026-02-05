@@ -2,6 +2,7 @@
 date = '2026-01-20T10:42:27+01:00'
 draft = false
 title = 'Migrálás Hugora'
+lastmod: 2026-02-05
 +++
 
 Úgy gondoltam, itt az ideje az egyoldalas statikus HTML-oldalamat átköltöztetni valamilyen egyszerű és gyors keretrendszerre. Mivel ez a bemutatkozós–blogolós weboldalötlet amúgy is a Linux–Git–Cloudflare szentháromságban született, kézenfekvő volt, hogy olyan keretrendszert keressek, ami erre könnyen ráhúzható.
@@ -12,7 +13,7 @@ Terminálból lehet localhost szervert indítani, mellé pedig egy Markdown-szer
 
 Szóval ezzel is megvagyok, jöhetnek a tartalmak.
 
-**update: **
+## update: - 2026-02-05
 
 A Githubról Cloudflare párosítást a Hugoval összehozni egyáltalán nem volt egyszerű. Beletelt egy kis időbe amíg az új Cloudflare UI-n megtaláltam a Pages oldalt, mert eldugták a jobb felső sarokba a + Add gomb mögé.
 
@@ -26,4 +27,6 @@ A helyi gépen a commit hiba nélkül lefutott, a Pagesben beállítottam minden
 | Output directory: public                     | public                 |
 | Environment variable: HUGO_VERSION = 0.xxx.0 | HUGO_VERSION = 0.xxx.x |
 
-Szuper. Pages letörölve, a folyamat újrakezdve, a végén a domaineket beállítani és kész.
+Szuper. Pages letörölve, a folyamat újrakezdve, a végén a domaineket beállítani és kész. Majdnem de nem. Még mindig nem jó, commit szerint jó kellene, hogy legyen. 
+
+Meglett a hiba, a Cloudflare Pagesben a gyökérkönyvtárnak meg kellett adnom a hugo-t gyökérnek. Ennyi.
