@@ -2,7 +2,7 @@
 date = '2026-01-20T10:42:27+01:00'
 draft = false
 title = 'Migrálás Hugora'
-lastmod: 2026-02-05
+lastmod = 2026-02-05
 +++
 
 Úgy gondoltam, itt az ideje az egyoldalas statikus HTML-oldalamat átköltöztetni valamilyen egyszerű és gyors keretrendszerre. Mivel ez a bemutatkozós–blogolós weboldalötlet amúgy is a Linux–Git–Cloudflare szentháromságban született, kézenfekvő volt, hogy olyan keretrendszert keressek, ami erre könnyen ráhúzható.
@@ -27,6 +27,6 @@ A helyi gépen a commit hiba nélkül lefutott, a Pagesben beállítottam minden
 | Output directory: public                     | public                 |
 | Environment variable: HUGO_VERSION = 0.xxx.0 | HUGO_VERSION = 0.xxx.x |
 
-Szuper. Pages letörölve, a folyamat újrakezdve, a végén a domaineket beállítani és kész. Majdnem de nem. Még mindig nem jó, commit szerint jó kellene, hogy legyen. 
+Szuper. Pages letörölve, a folyamat újrakezdve, a végén a domaineket beállítani és kész. Majdnem de nem. Még mindig nem jó pedig commit szerint jó kellene, hogy legyen. 
 
-Meglett a hiba, a Cloudflare Pagesben a gyökérkönyvtárnak meg kellett adnom a hugo-t gyökérnek. Ennyi.
+És végül az érzés, hogy amikor rájövök, hogy azért sikertelen a feltöltés mert a Cloudflare kapcsolat lehal állítólag a Telekom miatt és VPN-t kell indítanom, hogy elérjem a Cloudflare fiókomat és a Protonos levelezésemet az fenomenális.

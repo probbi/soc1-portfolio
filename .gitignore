@@ -12,3 +12,7 @@ Thumbs.db
 # Logok és temp fájlok
 *.log
 *.tmp
+
+public/
+resources/_gen/
+.hugo_build.lock
